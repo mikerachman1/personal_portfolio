@@ -1,7 +1,66 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+.about-me {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.skill-pics {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-icon {
+  max-width: 60px;
+}
+
+.projects-container {
+  display: grid;
+  justify-content: center;
+  grid-gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.project {
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgb(10 10 10 / 10%) 0px 0.5em 1em -0.125em, rgb(10 10 10 / 2%) 0px 0px 0px 1px;
+  padding: 0 1.5rem 0.8rem;
+}
+
 .icon {
   max-width: 30px;
 }
 
 .project-pic {
   max-width: 400px;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.contact-links {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
