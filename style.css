@@ -1,3 +1,7 @@
-h1 {
-  color: red;
+.icon {
+  max-width: 30px;
+}
+
+.project-pic {
+  max-width: 400px;
 }
