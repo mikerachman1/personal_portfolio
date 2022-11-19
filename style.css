@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(254, 254, 254);
 }
 
 .about-me {
@@ -34,19 +34,35 @@ body {
   border-radius: 8px;
   background-color: white;
   box-shadow: rgb(10 10 10 / 10%) 0px 0.5em 1em -0.125em, rgb(10 10 10 / 2%) 0px 0px 0px 1px;
-  padding: 0 1.5rem 0.8rem;
 }
 
-.icon {
-  max-width: 30px;
+.project-body, .project-header {
+  padding: 0 1.5rem 0;
+}
+
+.project-body p {
+  margin-top: 0;
 }
 
 .project-pic {
-  max-width: 400px;
+  max-width: 100%;
+  border-radius: 8px;
 }
 
-p {
-  text-align: center;
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-links {
+  flex: auto;
+  text-align: right;
+}
+
+
+.icon {
+  max-width: 30px;
 }
 
 h1 {
@@ -57,10 +73,11 @@ h3 {
   text-align: center;
 }
 
-.contact-links {
-  text-align: center;
-}
-
 a {
   text-decoration: none;
+  padding: 2px;
+}
+
+footer {
+  text-align: center;
 }
