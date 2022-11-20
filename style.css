@@ -2,6 +2,33 @@
   font-family: 'Poppins', sans-serif;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-image: 
+    url(images/blob2.svg),
+    url(images/blob3.svg),
+    url(images/blob4.svg);
+  background-repeat: no-repeat;
+  background-size: 250px, 320px, 400px;
+  background-position: top center, center left, bottom right;
+}
+
+header h3 {
+  max-width: fit-content;
+}
+
+
+.sofie-pic {
+  max-width: 300px;
+  height: auto;
+  background-image: url(images/blob.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 body {
   background-color: rgb(254, 254, 254);
   margin: 0;
@@ -61,7 +88,6 @@ body {
   text-align: right;
 }
 
-
 .icon {
   max-width: 30px;
 }
@@ -89,6 +115,3 @@ footer * {
   margin: 0;
 }
 
-header {
-  background-image: url('images/blob.svg');
-}
