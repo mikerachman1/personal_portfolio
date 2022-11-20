@@ -12,5 +12,6 @@ A 2 player game of chess played over the command line, built with Ruby.
 
 Dashboard Landing page
 
-A static landing page built using HTML and CSS, styled using grid and flexbox.
-             This project was a recreation of a design file so there is no backend functionality.
+A static landing page built using HTML and CSS, styled using grid and flexbox. This project was a recreation of a design file so there is no backend functionality.
+
+00CBA9

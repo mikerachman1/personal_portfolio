@@ -39,6 +39,13 @@ body {
   padding-right: 2rem;
 }
 
+.about-me p {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 .skill-pics {
   display: flex;
   justify-content: center;
@@ -115,3 +122,8 @@ footer * {
   margin: 0;
 }
 
+u {
+  text-decoration-color: #00CBA9;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 11px;
+}
