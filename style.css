@@ -34,10 +34,6 @@ body {
   margin: 0;
 }
 
-.about-me {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 
 .about-me p {
   margin-left: 4rem;
@@ -56,6 +52,16 @@ body {
   max-width: 60px;
 }
 
+.wave-divider {
+  background-image: url(images/wave3.svg);
+  background-size: cover;
+  min-height: 160px;
+}
+
+main h1 {
+  padding-bottom: 2rem;
+}
+
 .projects-container {
   display: grid;
   justify-content: center;
@@ -63,6 +69,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .project {
@@ -126,4 +133,10 @@ u {
   text-decoration-color: #00CBA9;
   text-decoration-thickness: 5px;
   text-underline-offset: 11px;
+}
+
+.skill-section {
+  background-image: url(images/wave2.svg);
+  padding-bottom: 3rem;
+  padding-top: 1rem;
 }

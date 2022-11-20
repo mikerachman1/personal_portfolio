@@ -14,4 +14,4 @@ Dashboard Landing page
 
 A static landing page built using HTML and CSS, styled using grid and flexbox. This project was a recreation of a design file so there is no backend functionality.
 
-00CBA9
+#00CBA9
