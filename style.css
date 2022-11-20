@@ -4,6 +4,7 @@
 
 body {
   background-color: rgb(254, 254, 254);
+  margin: 0;
 }
 
 .about-me {
@@ -80,4 +81,14 @@ a {
 
 footer {
   text-align: center;
+  background-image: url('images/wave.svg');
+}
+
+footer * {
+  padding: 5px;
+  margin: 0;
+}
+
+header {
+  background-image: url('images/blob.svg');
 }
